@@ -1,0 +1,17 @@
+<resources>
+    <!-- Application name shown under the launcher icon. -->
+    <string name="app_name">Chinese Municipalities</string>
+
+    <!-- Main screen texts. -->
+    <string name="main_title">Municipalities in China</string>
+    <string name="input_label">I want to know about:</string>
+    <string name="input_hint">name of a municipality</string>
+
+    <!-- Second screen texts. -->
+    <string name="visit_site">Visit site</string>
+
+    <!-- Error messages. -->
+    <string name="error_empty">Please enter a municipality name.</string>
+    <string name="error_unknown">Unknown municipality. Please enter Beijing, Shanghai, Tianjin or Chongqing.</string>
+    <string name="error_no_browser">No application is available to open this website.</string>
+</resources>
