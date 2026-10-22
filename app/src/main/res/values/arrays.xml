@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Factual summary for each municipality, in this fixed order:
+        0 Beijing, 1 Shanghai, 2 Chongqing, 3 Tianjin.
+        Java code looks up a summary by this index.
+    -->
+    <string-array name="municipalities_array">
+        <item>Beijing is the capital of the People\'s Republic of China and one of the country\'s four direct-controlled municipalities. With more than three thousand years of history, it served as the capital of the Yuan, Ming and Qing dynasties and is now China\'s political, cultural and educational centre. Famous landmarks include the Forbidden City, Tiananmen Square, the Temple of Heaven, the Summer Palace and sections of the Great Wall. Beijing hosted the Summer Olympics in 2008 and the Winter Olympics in 2022, becoming the first city to have hosted both.</item>
+        <item>Shanghai is China\'s largest city and a global centre for finance, trade and shipping. Located on the coast of the East China Sea at the mouth of the Yangtze River, it is one of China\'s four direct-controlled municipalities. Once a small fishing town, Shanghai grew into an international metropolis after it opened as a treaty port in the nineteenth century, and the Bund still displays its historic waterfront buildings. Since the 1990s the Pudong district has symbolised China\'s economic reform, with landmarks such as the Oriental Pearl Tower and Shanghai Tower.</item>
+        <item>Chongqing is one of China\'s four direct-controlled municipalities and the economic centre of the upper Yangtze region. Situated in south-west China where the Yangtze and Jialing rivers meet, it is built among steep hills and is widely known as the Mountain City. Chongqing became an independent municipality in 1997 and is the largest municipality in China by area and population. During the Second Sino-Japanese War it served as China\'s wartime capital. Today it is famous for hotpot, Bayu culture and as the starting point for cruises through the Three Gorges.</item>
+        <item>Tianjin is one of China\'s four direct-controlled municipalities, located on the coast of the Bohai Sea about thirty kilometres south-east of Beijing. Founded as a military garrison in the Ming dynasty, it grew into a major northern treaty port in the nineteenth century, leaving a rich heritage of colonial architecture around the Five Great Avenues district. Today Tianjin combines its historic urban centre with the modern Binhai New Area and one of the world\'s largest man-made harbours. It is a key transport gateway connecting Beijing with the North China Plain and the sea.</item>
+    </string-array>
+</resources>
