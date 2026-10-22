@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_default_background"
+    android:orientation="vertical">
+
+    <!-- Municipality name; background colour is set from Java. -->
+    <TextView
+        android:id="@+id/textMunicipalityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textColor="@color/color_text_light"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:text="Beijing" />
+
+    <!-- Municipality photo. -->
+    <ImageView
+        android:id="@+id/imageMunicipality"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/main_title"
+        android:scaleType="centerCrop" />
+
+    <!-- Scrollable information text; weight keeps the button reachable. -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/textMunicipalityInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:padding="16dp"
+            android:textSize="16sp" />
+    </ScrollView>
+
+    <!-- Button that opens the official website via an implicit intent. -->
+    <Button
+        android:id="@+id/buttonVisitSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/visit_site" />
+
+</LinearLayout>
